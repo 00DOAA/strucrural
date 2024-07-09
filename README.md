@@ -1,40 +1,31 @@
 # strucrural
 Structural Bioinformatics Investigation of the MAPK/ERK Signalling Pathway in Melanoma
 
-# Lead Concentration Analysis Project
-## Project Overview
+## Overview
+This repository contains the project files for structural bioinformatics investigation into the MAPK/ERK signalling pathway in melanoma. The primary focus is on understanding the structure and function of critical proteins within this pathway and identifying potential inhibitors that can serve as therapeutic agents for melanoma.
 
-This project, part of the Biomedical Statistics course, aims to analyze lead concentration data. The analysis involves descriptive statistics, graphical representations, and hypothesis testing to understand the distribution and relationship of lead concentration across various demographic factors.
 ## Introduction
 
-Lead exposure is a significant public health concern, especially in children. This project aims to analyze lead concentration data to understand its distribution and potential factors influencing it.
+The MAPK/ERK pathway mediates cellular responses to growth signals through a series of phosphorylation events. Dysregulation in this pathway, often due to mutations in the BRAF or RAS genes, leads to unregulated cell proliferation seen in many cancers, including melanoma. Our project focuses on the structural analysis of key proteins in this pathway (Ras, Raf, MEK, and ERK), and the identification of potential inhibitors through molecular docking studies.
 
-## Data
 
-The data used in this project includes various demographic and lead concentration measurements. The key variables analyzed are:
-- **Area**
-- **Sex**
-- **Lead Type**
-- **Exposure Levels**
-- **Maximum Finger Tapping (MAXWT)**
-- **Lead concentration at different times (Ld72, Ld73)**
+## Methodology
+1. **Protein Structure Retrieval:** Protein structures were obtained from the Protein Data Bank (PDB).
+    - BRAF (3OG7)
+    - MEK1 (3E8N)
+    - ERK2 (6OPH)
+    - MKP3 (1MKP)
 
-## Methods
+2. **Structural Analysis and Classification:** Detailed structural analysis including secondary structure visualization and ligand-binding site identification.
 
-### Descriptive Statistics
-- Data identification and exploration using functions like `str()` and `summary()`.
-- Computation of central tendency measures (mean, median) and quartiles.
-- Frequency tables for categorical variables.
-- Correlation coefficients for continuous variables.
+3. **Homology Modeling:** Predicted 3D structures of proteins not available in the PDB using Swiss-Model server.
 
-### Graphical Representations
-- Bar charts for categorical variables (e.g., gender).
-- Histograms for continuous variables (e.g., age, MAXWT).
-- Scatterplots with regression lines for relationships between variables.
-- Boxplots for visualizing data spread and identifying outliers.
+4. **Molecular Docking:** Docking studies to identify potential inhibitors using AutoDock Vina.
 
-### Hypothesis Testing
-- Normality tests using histograms, Shapiro test, and Q-Q plots.
-- Homoscedasticity tests using Boxplot, Bartlett’s test, and Levene’s test.
+5. **Visualization and Analysis:** Visualization of protein-ligand interactions using PyMOL.
+
+## Results
+- **Docking Results:** Identified top ligands with high binding affinities for BRAF and MEK1 proteins.
+- **Interaction Analysis:** Detailed visualization and analysis of key residues involved in ligand binding and potential interactions.
 
 
