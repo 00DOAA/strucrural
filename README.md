@@ -6,7 +6,7 @@ This repository contains the project files for structural bioinformatics investi
 
 ## Introduction
 
-The MAPK/ERK pathway mediates cellular responses to growth signals through a series of phosphorylation events. Dysregulation in this pathway, often due to mutations in the BRAF or RAS genes, leads to unregulated cell proliferation seen in many cancers, including melanoma. Our project focuses on the structural analysis of key proteins in this pathway (Ras, Raf, MEK, and ERK), and the identification of potential inhibitors through molecular docking studies.
+The MAPK/ERK pathway mediates cellular responses to growth signals through a series of phosphorylation events. Dysregulation in this pathway, often due to mutations in the BRAF or RAS genes, leads to unregulated cell proliferation seen in many cancers, including melanoma. The project focuses on the structural analysis of key proteins in this pathway (Ras, Raf, MEK, and ERK), and the identification of potential inhibitors through molecular docking studies.
 
 
 ## Methodology
